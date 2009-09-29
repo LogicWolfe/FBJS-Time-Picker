@@ -1,0 +1,11 @@
+<!-- 
+This is just an fbml snippet that shows how the time picker can be used in an <fb:editor>
+Be sure to adjust image paths appropriately and to include time_picker.js and time_picker.css
+Further documentation can be found in time_picker.js
+-->
+<fb:editor-custom label="Time" class="time">
+	<input name="time" type="text" class="time_input"/>
+	<a href="#timepicker" onclick="TimePicker.start(this);return false;">
+		<img src="/images/clock_icon.gif"/>
+	</a>
+</fb:editor-custom>

@@ -1,0 +1,41 @@
+/* Be sure to update image paths to wherever you are hosting them from */
+
+.time {
+	vertical-align: bottom;
+}
+
+img.time_picker_icon {
+	position: relative;
+	top: 3px;
+}
+
+.time_input {
+	width: 60px !important;
+}
+
+.time_picker {
+	margin-top: 5px;
+	margin-left: 2px;
+	background-color: white;
+	position: absolute;
+}
+
+.time_picker .row .square {
+	width: 26px;
+	height: 22px;
+	color: #333;
+	background-image: url(/images/fb_unfilled_rounded_square.png);
+	font-size: 12px;
+	text-align: center;
+	line-height: 22px;
+	float: left;
+}
+
+.time_picker .row .square:hover, .time_picker .row .square.selected {
+	background-image: url(/images/fb_filled_rounded_square.png);
+	color: white;
+}
+
+.time_picker .row {
+	clear: left;
+}
